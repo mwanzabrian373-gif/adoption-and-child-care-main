@@ -27,11 +27,9 @@ proguard/
 
 # Gradle
 .gradle/
-gradle/
-wrapper/
-daemon/
-caches/
-native/
+# NOTE: Do NOT ignore the whole `gradle/` directory. It contains the Gradle
+# wrapper (gradle/wrapper/*) and the version catalog (gradle/libs.versions.toml),
+# both of which MUST be committed for the project to build from a fresh clone.
 kotlin-profile/
 .kotlin/
 .tmp/
